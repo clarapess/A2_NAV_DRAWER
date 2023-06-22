@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_handshake_24"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/baseline_login_24"
+            android:title="Cadastro"/>
+
+        <item
+            android:id="@+id/nav_reserva"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="Reservas" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/baseline_view_timeline_24"
+            android:title="Histórico de Reservas" />
+        <item
+            android:id="@+id/nav_milhas"
+            android:icon="@drawable/baseline_star_24"
+            android:title="B4L Recompensa" />
+    </group>
+</menu>

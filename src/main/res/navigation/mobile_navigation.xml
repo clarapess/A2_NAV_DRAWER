@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.a2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_historico"
+        android:name="com.example.a2.ui.histórico.HistoricoFragment"
+        android:label="Histórico"
+        tools:layout="@layout/fragment_historico" />
+
+    <fragment
+        android:id="@+id/nav_cadastro"
+        android:name="com.example.a2.ui.cadastro.CadastroFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_cadastro" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.a2.ui.about.AboutFragment"
+        android:label="Sobre Nós"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/nav_milhas"
+        android:name="com.example.a2.ui.milhas.MilhasFragment"
+        android:label="B4L RECOMPENSA"
+        tools:layout="@layout/fragment_milhas"/>
+    <fragment
+        android:id="@+id/nav_reserva"
+        android:name="com.example.a2.ui.reserva.ReservaFragment"
+        android:label="Reservas"
+        tools:layout="@layout/fragment_reserva"/>
+
+</navigation>
